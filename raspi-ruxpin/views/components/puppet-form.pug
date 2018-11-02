@@ -1,0 +1,15 @@
+  form.form-inline(action="/", method="get")
+    .well.form-group
+      label.col-sm-2.control-label(for="e") Eyes
+      .col-sm-10
+        select#id.form-control(name="e")
+          option(value="o") open
+          option(value="c") close
+      label.col-sm-2.control-label(for="e") Mouth
+      .col-sm-10
+        select#id.form-control(name="m")
+          option(value="o") open
+          option(value="c") close
+      button.btn.btn-info(type="submit")
+        i.fa.fa-play-circle(aria-hidden="true")
+  

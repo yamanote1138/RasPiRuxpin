@@ -1,0 +1,36 @@
+{
+  "name": "raspi-ruxpin",
+  "version": "1.0.0",
+  "description": "control a creepy teddy bear with a raspberry pi",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamanote1138/raspi-ruxpin.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "raspi",
+    "teddy",
+    "ruxpin",
+    "robot",
+    "creepy"
+  ],
+  "author": "Chad Francis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamanote1138/raspi-ruxpin/issues"
+  },
+  "homepage": "https://github.com/yamanote1138/raspi-ruxpin#readme",
+  "dependencies": {
+    "config": "^2.0.1",
+    "express": "^4.16.4",
+    "johnny-five": "^1.0.0"
+  }
+}

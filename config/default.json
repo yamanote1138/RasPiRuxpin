@@ -1,0 +1,12 @@
+{
+  "gpio-pins":{
+    "eyes":{
+      "open": 24,
+      "closed": 25
+    },
+    "mouth":{
+      "open": 18,
+      "closed": 23
+    }
+  }
+}

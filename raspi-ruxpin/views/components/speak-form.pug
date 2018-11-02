@@ -1,0 +1,7 @@
+form.form-inline(action="/speak", method="post")
+  .well.form-group
+    .input-group
+      input#filename.form-control(type="filename", name="filename", placeholder="Type anything here and the bear will say it... I mean anything!")
+      span.input-group-btn
+        button.btn.btn-info(type="submit")
+          i.fa.fa-bullhorn(aria-hidden="true")

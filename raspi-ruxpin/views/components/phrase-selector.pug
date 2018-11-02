@@ -1,0 +1,11 @@
+form.form-inline(action="/phrase", method="post")
+  .well.form-group
+    .input-group
+      select#filename.form-control(name="filename")
+        option(value="") Select a pre-recorded sound file
+        each val, index in phrases
+          option(value=index)
+            =val
+      span.input-group-btn
+        button.btn.btn-info(type="submit")
+          i.fa.fa-play-circle(aria-hidden="true")
